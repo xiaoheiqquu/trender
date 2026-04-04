@@ -65,10 +65,6 @@ platforms:
       name: "澎湃新闻"
     - id: "bilibili-hot-search"
       name: "bilibili 热搜"
-    - id: "cls-hot"
-      name: "财联社热门"
-    - id: "ifeng"
-      name: "凤凰网"
     - id: "tieba"
       name: "贴吧"
     - id: "weibo"
@@ -77,7 +73,14 @@ platforms:
       name: "抖音"
     - id: "zhihu"
       name: "知乎"
-
+    - id: "cankaoxiaoxi"
+      name: "参考消息"
+    - id: "zaobao"
+      name: "联合早报"
+    - id: "github"
+      name: "GitHub"
+    - id: "hackernews"
+      name: "Hacker News"
 
 
 # ===============================================================
@@ -594,3 +597,13 @@ advanced:
     slack: 4000
   batch_send_interval: 3              # 批次发送间隔（秒）
   feishu_message_separator: "━━━━━━━━━━━━━━━━"
+
+
+
+
+
+
+
+  schedule:
+  enabled: true
+  preset: "morning_evening"     # 改这里就行
