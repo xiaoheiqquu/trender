@@ -81,8 +81,6 @@ platforms:
       name: "GitHub"
     - id: "hackernews"
       name: "Hacker News"
-
-
 # ===============================================================
 # 3. 数据源 - RSS 订阅
 #
